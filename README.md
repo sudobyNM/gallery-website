@@ -1,16 +1,35 @@
-# React + Vite
+# Photo Gallery Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is a grid photo gallery web app that allows users to search for photos by author name. The app uses the [Picsum Photos API](https://picsum.photos/) to fetch photo data.
 
-Currently, two official plugins are available:
+The app is built using [React](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/) + [Vite](https://vitejs.dev/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Search for photos by author name
+- Display photos in a grid layout
+- Fetch photo data from the Picsum Photos API
+- Toggle favourite photos
+- Save favourite photos to local storage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the Oxlint configuration
+To install the app, run the following command:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+clone the repo
+
+```bash
+git clone https://github.com/your-username/photo-gallery.git
+```
+
+```bash
+npm install
+```
+
+## Usage
+
+To start the app, run the following command:
+
+```bash
+npm run dev
+```
