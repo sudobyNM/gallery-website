@@ -1,0 +1,14 @@
+export function favReducer(state, action) {
+  switch (action.type) {
+    case "favourites_Toggle": {
+      const photoId = action.payload;
+      if (state.includes(photoId)) {
+        return state.filter((id) => id !== photoId);
+      }
+      return [...state, photoId];
+    }
+
+    default:
+      return state;
+  }
+}
